@@ -1,0 +1,13 @@
+Sort.java
+From left to right, took the first number of the array and compared it to the proceeding numbers. If there is a number smaller than it, then they would switch positions. 
+
+Prime.java
+Method: nthPrime
+Creates an array with n elements, the first of which is 2 because it is the first prime number. It continues to run until n prime numbers are found. Returns the nth prime number found.
+Method: isPrime
+Takes in an integer n to determine whether it's prime or not. Uses modular to determine if n is prime. Increments divisor up to the squareroot of n because after that, the factors are repeating. Returns true if modular never equals 0. Returns false if modular ever equals 0.
+Method: Main
+Prints out nth prime number. (n = input)
+
+Path.java
+Reads element that user wants in scanner. Uses if cases based on first letter, last number, and string length to determine which path is printed out.
